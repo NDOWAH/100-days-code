@@ -26,6 +26,8 @@ scissors = '''
 '''
 
 #Write your code below this line 👇
+"""This program is very inefficient but our focus at this level is just to get the code working. Subsequently,
+we shall get adiquate skills that we could use and make the code efficient"""
 import random
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, 2 for Scissors."))
 
@@ -40,13 +42,19 @@ elif user_choice == 0 and computer_choice == 2:
   print("The computer choose", computer_choice)
 elif user_choice == 1 and computer_choice == 0:
   print("Sorry, you loose!")
+  print("The computer choose", computer_choice)
 elif user_choice == 1 and computer_choice == 2:
   print("Sorry, you loose!")
+  print("The computer choose", computer_choice)
 elif user_choice == 2 and computer_choice == 0:
   print("Sorry, you loose")
+  print("The computer choose", computer_choice)
 elif user_choice == 2 and computer_choice == 1:
   print("Sorry, you loose")
+  print("The computer choose", computer_choice)
 elif user_choice == 2 and computer_choice == 1:
   print("Congratulation, you won!")
+  print("The computer choose", computer_choice)
 elif user_choice == 1 and computer_choice == 2:
   print("Sorry, you loose!")
+  print("The computer choose", computer_choice)
