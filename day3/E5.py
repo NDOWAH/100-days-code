@@ -5,6 +5,7 @@ name2 = input("What is their name? \n")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+"""This code takes two names of opposit sex and calculate their love score """
 
 combined_names = (name1 + name2).upper()
 t_count = combined_names.count("T")
