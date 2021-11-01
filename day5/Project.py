@@ -15,20 +15,32 @@ password = ""
 for i in range(1, nr_letters + 1):
   num_letters = random.choice("letters")
   password += num_letters
-
-
-for i in range(1, nr_symbols):
+for i in range(1, nr_symbols + 1):
     num_symbols = random.choice("symbols")
     password += num_symbols
-
-
-for i in range(1, nr_numbers):
+for i in range(1, nr_numbers + 1):
     num_numbers = random.choice("numbers")
     password += num_numbers
 print(password)
 
 
-
-
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+
+# _list = ""
+# for i in range(1, nr_letters + 1):
+#   num_letters = random.choice("letters")
+#   _list  += num_letters
+# for i in range(1, nr_symbols +1):
+#     num_symbols = random.choice("symbols")
+#     _list += num_symbols
+# for i in range(1, nr_numbers +1):
+#     num_numbers = random.choice("numbers")
+#     _list += num_numbers
+
+# password = random.shuffle(_list)
+# for char in password:
+#   _list += char
+
+# print("Your password is %s" %(_list))
+
